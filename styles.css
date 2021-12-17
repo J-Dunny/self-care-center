@@ -31,7 +31,7 @@ html {
   background-color: white;
   width: 50%;
   height: 90px;
-  border-radius: 5px;
+  border-radius: 8px;
   color: black;
 }
 
@@ -42,13 +42,14 @@ html {
   margin-top: 100px;
   width: 70%;
   height: 120px;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: white;
   color: black;
 }
 
 .view-message {
   vertical-align: middle;
+  display: block;
 }
 
 .hidden {
@@ -70,12 +71,45 @@ html {
   background-color: #134d71;
   display: block;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   color: white;
+  width: 155px;
+  border-radius: 5px;
+
 }
 
+.login-button {
+  background-color: #134d71;
+  display: block;
+  margin-top: 15px;
+  color: white;
+  width: 155px;
+  border-radius: 5px;
 
+}
+
+.delete-button{
+  background-color: #134d71;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  color: white;
+  width: 155px;
+  border-radius: 5px;
+}
 
 .img-meditate {
   width: 7%;
+  vertical-align: middle;
+  display: block;
+
+}
+
+.login{
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.welcome-msg{
+  margin-bottom: 30px;
 }
